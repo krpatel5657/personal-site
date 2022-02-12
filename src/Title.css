@@ -1,6 +1,13 @@
+.back-pic {
+  background-image: url(./img/header-background.jpeg);
+  background-size: cover;
+  padding-top: 50px;
+  box-shadow: inset 2em 5em 2em 10em rgba(255,255,255,0.4);
+}
 .header-main {
-    background-color: #116530;
-    height: 450px;
+    background-color: #0e7835;
+    height: 390px;
+    margin: 0px 30px 0px 30px;
     padding: 50px;
     display: flex;
     flex-direction: row;
@@ -41,6 +48,6 @@
   height: 0; 
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
-  border-top: 40px solid #116530;
+  border-top: 40px solid #0e7835;
   margin: auto;
 }

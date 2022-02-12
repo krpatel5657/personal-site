@@ -4,7 +4,7 @@ import headshot from "./img/Krishna-Headshot.JPG"
 
 function Title() {
     return (
-        <div>
+        <div class="back-pic">
         <div class="header-main">
             <img class="clip-polygon" id="headshot" src={headshot} alt="headshot"/>
             <div id="title-info">

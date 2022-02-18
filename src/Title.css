@@ -33,6 +33,7 @@
 }
 #name-title {
     color: white;
+    text-align:left;
     font-size: 64px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 320;

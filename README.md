@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+Access site at https://krpatel5657.github.io/personal-site/ (still under construction).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

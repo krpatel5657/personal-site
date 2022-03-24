@@ -1,20 +1,15 @@
 {
   "files": {
-    "main.css": "/personal-site/static/css/main.de64a835.css",
-    "main.js": "/personal-site/static/js/main.43c77119.js",
-    "static/js/787.3ba5e41c.chunk.js": "/personal-site/static/js/787.3ba5e41c.chunk.js",
-    "static/media/img-2.jpg": "/personal-site/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
+    "main.css": "/personal-site/static/css/main.bc408d42.css",
+    "main.js": "/personal-site/static/js/main.1050a3cf.js",
     "static/media/Krishna-Headshot.JPG": "/personal-site/static/media/Krishna-Headshot.11d383cabd0e568f8ac2.JPG",
-    "static/media/img-9.jpg": "/personal-site/static/media/img-9.f97f588f3670715d01b2.jpg",
-    "static/media/img-8.jpg": "/personal-site/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
     "static/media/header-background.jpeg": "/personal-site/static/media/header-background.06b4ce7bcdf90c6654ab.jpeg",
     "index.html": "/personal-site/index.html",
-    "main.de64a835.css.map": "/personal-site/static/css/main.de64a835.css.map",
-    "main.43c77119.js.map": "/personal-site/static/js/main.43c77119.js.map",
-    "787.3ba5e41c.chunk.js.map": "/personal-site/static/js/787.3ba5e41c.chunk.js.map"
+    "main.bc408d42.css.map": "/personal-site/static/css/main.bc408d42.css.map",
+    "main.1050a3cf.js.map": "/personal-site/static/js/main.1050a3cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.de64a835.css",
-    "static/js/main.43c77119.js"
+    "static/css/main.bc408d42.css",
+    "static/js/main.1050a3cf.js"
   ]
 }

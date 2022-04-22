@@ -1,7 +1,9 @@
-
 .back-pic {
   background-image: url(./img/header-background.jpeg);
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   padding-top: 70px;
   box-shadow: inset 0em 0em 0em 10em rgba(255,255,255,0.1);
 }
@@ -15,8 +17,8 @@
 }
 @media screen and (min-width: 960px) {
   .header-main {
-    background-color: #246a44;
-    height: 340px;
+    background-color: rgba(36, 106, 68, 0.7);
+    height: 380px;
     padding: 50px;
     display: flex;
     flex-direction: row;
@@ -65,7 +67,7 @@
 
 @media screen and (max-width: 960px) {
   .header-main {
-    background-color: #246a44;
+    background-color: rgba(36, 106, 68, 0.7);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -84,7 +86,7 @@
     color: white;
     justify-content: center;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 320;
     letter-spacing: 0.2em;

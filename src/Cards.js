@@ -4,6 +4,7 @@ import './Cards.css'
 import pic9 from "./images/img-9.jpg";
 import pic2 from "./images/img-2.jpg";
 import pic8 from "./images/img-8.jpg";
+
 function Cards() {
     return (
         <div className='cards'>

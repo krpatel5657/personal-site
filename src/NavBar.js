@@ -6,9 +6,25 @@ import { Button } from './Button';
 function Navbar() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
+    const [navbar, setNavbar] = useState(false)
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
+
+    const changeBackground = () => {
+        console.log(window.scrollY)
+        if (window.scrollY >= 300) {
+            setNavbar(true)
+        } else {
+            setNavbar(false)
+        }
+    }
+
+    useEffect(() => {
+        changeBackground()
+        // adding the event when scroll change background
+        window.addEventListener("scroll", changeBackground)
+    })
 
     const showButton = () => {
         if (window.innerWidth <= 960) {
@@ -26,7 +42,7 @@ function Navbar() {
 
     return (
         <>
-            <nav className='navbar'>
+            <nav className={navbar ? "navbar-active" : "navbar"}>
                 <div className='navbar-container'>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

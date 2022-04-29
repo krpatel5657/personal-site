@@ -7,40 +7,40 @@ import pic8 from "./images/img-8.jpg";
 function Cards() {
     return (
         <div className='cards'>
-            <h1>Flowers I like:</h1>
+            <h1>Disney/Pixar movie favs:</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
                             src={pic9}
-                            text="Explore project number 1 here!"
-                            label='Chocolate'
+                            text="1: Coco. Mystery, Music, Marvelous."
+                            label='☆☆☆☆☆'
                             path='/projects'
                         />
                         <CardItem
                             src={pic2}
-                            text="Explore project number 2 here!"
-                            label='Fruits'
+                            text="2: Zootopia. Really good."
+                            label='☆☆☆☆☆'
                             path='/projects'
                         />
                     </ul>
                     <ul className='cards__items'>
                         <CardItem 
                         src={pic8}
-                        text="Explore project number 1 here!"
-                        label='Chocolate'
+                        text="3. Big Hero 6. Fantastic. Showstopping."
+                            label='☆☆☆☆☆'
                         path='/projects'
                         />
                         <CardItem
-                            src="images/img-7.jpg"
-                            text="Explore project number 2 here!"
-                            label='Fruits'
+                            src={pic8}
+                            text="4: Soul. Deep stuff."
+                            label='☆☆☆☆'
                             path='/projects'
                         />
                         <CardItem
-                            src="images/img-6.jpg"
-                            text="Explore project number 3 here!"
-                            label='Music'
+                            src={pic8}
+                            text="-50: Inside Out. Kinda hate it."
+                            label='-'
                             path='/projects'
                         />
                     </ul>

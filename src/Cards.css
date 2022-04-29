@@ -7,6 +7,7 @@
 
 h1 {
   text-align: center;
+  font-weight: 390;
 }
 h5 {
   font-weight: 390;
@@ -50,7 +51,7 @@ h5 {
 
 .cards__item__pic-wrap {
   position: relative;
-  width: 100%;
+  margin-top: 30px;
   padding-top: 67%;
   overflow: hidden;
 }
